@@ -1,0 +1,31 @@
+#end .container {
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    border-top: 1.5px solid black;
+    width: 85%;
+    display: flex;
+    justify-content: end;
+}
+
+.name-box {
+    font-size: 60px;
+    font-weight: 600;
+    display: flex;
+    font-family: Orbitron;
+    flex-direction: column;
+    justify-content: end;
+    padding: 200px 0;
+}
+
+.name-box .sora {
+    padding-left: 70px;
+}
+
+.name-box p {
+    font-family: Orbitron;
+}

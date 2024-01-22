@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>soraowada.com </title>
+        <link rel="stylesheet" href="CSS/general.css">
+        <link rel="stylesheet" href="CSS/header.css">
+        <link rel="stylesheet" href="CSS/work.css">
+        <link rel="stylesheet" href="CSS/about.css">
+        <link rel="stylesheet" href="CSS/contact.css">
+        <link rel="stylesheet" href="CSS/end.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5b1b574df8.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+    <!------headder------->
+
+        <div id="Header">
+            <div class="container">
+                <nav class="nav">
+                    <div id="Header">
+                        <li><a href="#Header" id="rotateDiv" class="rotateDiv">S</a></li>
+                    </div>
+                    <div class="sidemenu">
+                        <ul id="sidemenu">
+                            <li><a href="#Work">Work</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </div>
+                </nav>
+                <div class="header-text">
+                    <h1>Hello, I'm Sora<br>Owada from Japan.</h1>
+                    <p>I am currently freshman at Earlham College<br> majoring in Computer Science</p>
+                </div>
+            </div>
+        </div>
+
+    <!------------work----------->
+
+        <div id="Work">
+            <div class="container">
+                <div class="row-1">
+                    <h1>Work</h1>
+                </div>
+                <div class="row-2">
+                    <div class="colum-1">
+                        <video autoplay muted loop playsinline>
+                            <source src="0001-0151.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="colum-2">
+                        <div class="description-box">
+                            <div class="upper-box" id="animated-element">
+                                <div class="left-box">
+                                    <div class="one">1</div>
+                                </div>
+                                <div class="right-box">
+                                    Vesage logo
+                                </div>
+                                <div class="animated-border"></div>
+                                <div class="animated-border-left"></div>
+                            </div>
+                            <div class="lower-box">
+                                <div class="animated-border-below"></div>
+                                <div class="tab-container-1">
+                                    <p class="tab-links active-link" onclick="opentab('about', this)">About</p>
+                                    <p class="tab-links" onclick="opentab('resources', this)">Resources</p>
+                                </div>
+                                
+                                <div class="tab-container-2">
+                                    <div class="tab-contents active-tab" id="about" >
+                                        <ul>
+                                            <li class="vesage">VESAGE</li>
+                                            <li>An apparel brand launched by three high school students</li>
+                                            <li>I was responsible for logo creation as a 3D designer</li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="resources">
+                                        <ul class="flex-box">
+                                            <div class="blender">Blender</div>
+                                            <div class="photoshop">Photoshop</div>
+                                        </ul>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!----------about--------->
+
+        <div id="About" class="tab-contents active-tab">
+            <div class="container">
+                <div class="row-1">
+                    <h1>About</h1>
+                </div>
+                <div class="row-2">
+                    <div class="left-box-about">
+                        <div class="border">
+                            <div class="profile-image-section">
+                                <img class="profile-image" src="01HEERGHDZ0YVV3RWCV9E0V4RC-low-res-branded.jpg" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-box-about">
+                        <ul>
+                            <div class="upper-box-about">
+                                <div class="location-container">
+                                    <li class="location">Location</li>
+                                        <p>Tokyo, Japan</p>
+                                        <p>Indiana, USA</p>
+                                </div>
+                                <div class="skill-container">
+                                    <li class="skill">Skill</li>
+                                        <p>Python (beginner)</p>
+                                        <p>HTML & CSS (beginner)</p>
+                                        <p>Blender (Intermidiate)</p>
+                                </div>
+                            </div>
+                            <div class="lower-box-about">
+                                <div class="education-container">
+                                    <li class="education">Education</li>
+                                        <p><span>2020-2023</span><br>Machida Metropolitan High School, Tokyo, Japan</p>
+                                        <p class="present"><span>2023-present</span><br>Earlham College, IN, USA</p>
+                                </div>
+                                <div class="project-container">
+                                    <li class="project">Project</li>
+                                        <p>Providing the logo of the apparel brand Vesage as a 3D designer</p>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-------contact---------->
+
+        <div id="contact"> 
+            <div class="container">
+                <div class="row-1">
+                    <h1>Contact</h1>
+                </div>
+                <div class="row-2">
+                    <div class="contact-box">
+                        <a href="https://www.instagram.com/sora_owada/"><i class="fa-brands fa-instagram icon"></i></a>
+                        <a href="mailto:soraowada@icloud.com"><i class="fa-regular fa-envelope icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!--------end------->
+
+        <div id="end">
+            <div class="container">
+                <div class="row">
+                    <div class="name-box">
+                        <p class="sora">Sora</p>
+                        <p>Owada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script>
+        // Add event listener to detect scroll
+        window.addEventListener('scroll', function() {
+          // Get the element to be animated
+          var animatedElement = document.getElementById('animated-element');
+          var borderElement = animatedElement.querySelector('.animated-border');
+          
+          // Check if the element is in the viewport
+          var rect = animatedElement.getBoundingClientRect();
+          var isInViewport = rect.top <= window.innerHeight && rect.bottom >= 0;
+    
+          // Add the animate class if the element is in the viewport
+          if (isInViewport) {
+            borderElement.classList.add('animate');
+          }
+        });
+    </script>
+
+    <script>
+        // Add event listener to detect scroll
+        window.addEventListener('scroll', function() {
+        // Get the element to be animated
+        var animatedElement = document.getElementById('animated-element');
+        var borderElement = animatedElement.querySelector('.animated-border-left');
+        
+        // Check if the element is in the viewport
+        var rect = animatedElement.getBoundingClientRect();
+        var isInViewport = rect.top <= window.innerHeight && rect.bottom >= 0;
+
+        // Add the animate class if the element is in the viewport
+        if (isInViewport) {
+            borderElement.classList.add('animate');
+        }
+        });
+    </script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, clickedElement) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            clickedElement.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>  
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu() {
+        sidemenu.style.right = "0";
+        }
+        function closemenu() {
+        sidemenu.style.right = "-300px";
+        }
+
+    </script>
+   
+   <script>
+
+        document.addEventListener("scroll", function () {
+        const rotateDiv = document.getElementById("rotateDiv");
+        const scrollY = window.scrollY;
+
+        // Adjust the rotation factor based on your preference
+        const rotation = scrollY * 0.127;
+
+        // Apply rotation to the div
+        rotateDiv.style.transform = "rotate(" + rotation + "deg)";
+        });
+
+   </script>
+
+</html>

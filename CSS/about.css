@@ -1,0 +1,139 @@
+#About .container {
+    margin-top: 50px;
+}
+
+#About .row-2 {
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    grid-column-gap: 120px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.left-box-about {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 200px;
+}
+
+.profile-image-section {
+    max-width: 450px;
+}
+
+.profile-image {
+    width:200px;
+    height: auto; 
+    display: block;
+    margin: 10px; 
+    border-radius: 15px;
+}
+
+.right-box-about {
+    width: 100%;
+    height: 130%;
+}
+
+.border {
+    border: 1.5px solid black;
+    border-radius: 15px;
+    height: 240px;
+}
+
+.right-box-about ul {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-box-about li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    font-family: Orbitron;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.right-box-about p {
+    color: gray;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.right-box-about p span {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.right-box-about .present {
+    padding-top: 8px;
+}
+
+@media (max-width: 900px) {
+
+    #About .row-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+    .left-box-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    .right-box-about ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    .upper-box-about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location-container, .skill-container, .education-container, .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .right-box-about p {
+        padding-left: 0px;
+    }
+    
+    .lower-box-about span {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skill-container {
+        padding-top: 110px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #About .row-2 {
+        display: block;
+    }
+
+    #About .right-box-about ul {
+        display: block;
+    }
+
+    .skill-container {
+        padding-top: 0px;
+    }
+}

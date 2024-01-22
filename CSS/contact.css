@@ -1,0 +1,27 @@
+#contact .container {
+    margin-top: 130px;
+}
+
+#contact .row-2 .contact-box {
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    justify-content: center;
+}
+
+#contact .row-2 {
+    margin: 0 40vw;
+}
+
+.icon {
+    color: black;
+    font-weight: 100;
+}
+
+.fa-instagram {
+    margin-right: 20px;
+}
+
+.fa-envelope {
+    margin-left: 20px;
+}
